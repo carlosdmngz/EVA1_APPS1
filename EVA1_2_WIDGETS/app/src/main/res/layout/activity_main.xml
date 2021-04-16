@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="#060609" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escribe tu nombre"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtNombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos:"
+        android:textColor="#060609" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escribe tus apellidos"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtNombre3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        android:textColor="#060609" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escribe tu edad"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NO" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+</LinearLayout>

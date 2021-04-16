@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">RECURSOS Y EVENTOS</string>
+    <string name="rd_btn_es">Español</string>
+    <string name="rd_btn_en">Inglés</string>
+    <string name="txt_vw_nom">Nombre:</string>
+    <string name="txt_vw_ape">Apellido:</string>
+    <string name="edt_txt_nom">Introduce tu(s) nombre(s):</string>
+    <string name="edt_txt_ape">Introduce tu(s) apellido(s):</string>
+
+    <string name="rd_btn_es_en">Spanish</string>
+    <string name="rd_btn_en_en">English</string>
+    <string name="txt_vw_nom_en">First Name:</string>
+    <string name="txt_vw_ape_en">Last Name:</string>
+    <string name="edt_txt_nom_en">Type your first name:</string>
+    <string name="edt_txt_ape_en">Type your last name:</string>
+
+</resources>
